@@ -4,7 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bevy = { version = "0.9.1", features = ["dynamic"] }
+bevy = "0.9.1"
+bevy_prototype_lyon = "0.7.1"
 
 # Enable a small amount of optimization in debug mode
 [profile.dev]
