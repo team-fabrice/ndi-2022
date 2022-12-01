@@ -1,0 +1,2 @@
+[default.databases.sea_orm]
+url = "postgres://localhost/app"
