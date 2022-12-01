@@ -1977,6 +1977,7 @@ dependencies = [
  "bevy",
  "serde",
  "toml",
+ "walkdir",
 ]
 
 [[package]]

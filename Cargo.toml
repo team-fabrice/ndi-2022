@@ -7,6 +7,7 @@ edition = "2021"
 bevy = { version = "0.9.1", features = ["dynamic"] }
 serde = "1.0"
 toml = "0.5.9"
+walkdir = "2.3.2"
 
 # Enable a small amount of optimization in debug mode
 [profile.dev]
