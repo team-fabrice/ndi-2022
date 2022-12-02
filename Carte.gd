@@ -25,14 +25,14 @@ func _process(delta):
 func _ready():
 	font = DynamicFont.new()
 	font.font_data = load("res://noto.ttf")
+	font.size = 12
 	var f = File.new()
 	f.open("res://data/cards/" + file + ".json", File.READ)
 	data = parse_json(f.get_as_text())
 
 func _draw():
-	draw_rect(Rect2(0, 0, 100, 150), color)
+	draw_rect(Rect2(0, 0, 90, 115), color)
 	draw_string(font, Vector2(10, 20), data["display_name"], Color(0, 0, 0))
-
 
 func _on_mouse_entered():
 	mouse_in = true
